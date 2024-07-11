@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "Structo"
+version = "0.1.0"
+description = "python app architecture"
+authors = ["horacioskrp <hervekudayah@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.12.4"
+fastapi="0.111.0"
+alembic="1.13.2"
+asyncpg="0.29.0"
+SQLAlchemy = "2.0.31"
+pydantic="2.8.2"
+python-dotenv="1.0.1"
+uvicorn="0.30.1"
+gunicorn="22.0.0"
+pydantic-settings="2.2.1"
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
